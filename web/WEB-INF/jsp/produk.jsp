@@ -14,7 +14,7 @@
     </head>
     <body>
         <h1>Produk</h1>
-        
+        <h3>Total Keranjang: ${keranjang.size()}</h3>
         <c:forEach var="c" items="${produk}">
             <p><a href="${c.id}">${c.namaproduk}</a></p>
         </c:forEach>
